@@ -1,0 +1,15 @@
+/* Global custom styles (used when not relying solely on Tailwind utilities). */
+
+.app-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.app-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(153, 27, 27, 0.4);
+  border-radius: 9999px;
+}
+
+.app-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
